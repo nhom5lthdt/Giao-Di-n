@@ -1,0 +1,11 @@
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\bin\Debug\Quan Ly Quan An.exe.config
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\bin\Debug\Quan Ly Quan An.exe
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\bin\Debug\Quan Ly Quan An.pdb
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.csprojResolveAssemblyReference.cache
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan_Ly_Quan_An.DangNhap.resources
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan_Ly_Quan_An.Properties.Resources.resources
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.csproj.GenerateResource.Cache
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.csproj.CoreCompileInputs.cache
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.exe
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.pdb
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan_Ly_Quan_An.webgioithieu.resources
