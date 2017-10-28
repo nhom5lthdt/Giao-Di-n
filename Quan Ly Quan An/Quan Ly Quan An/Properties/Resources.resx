@@ -118,22 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Гостиная-домой-украшения-ткани-плакат-натюрморт-редька-красный-капли-спрей" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Гостиная-домой-украшения-ткани-плакат-натюрморт-редька-красный-капли-спрей.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="do-uong-ngon-nhat-the-gioi41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\do-uong-ngon-nhat-the-gioi41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wallpaper-naturaleza-1280x800-3912-e32ab377" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wallpaper-naturaleza-1280x800-3912-e32ab377.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4539294138_881354cfa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4539294138_881354cfa3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20140429153615521552" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20140429153615521552.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-food-wallpaper-hd-249246262" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-food-wallpaper-hd-249246262.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Vegetable-HD-Wallpapers-03543" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vegetable-HD-Wallpapers-03543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="free-food-wallpaper-hd-249246261" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-food-wallpaper-hd-249246261.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="4539294138_881354cfa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4539294138_881354cfa3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="do-uong-ngon-nhat-the-gioi41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\do-uong-ngon-nhat-the-gioi41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="free-food-wallpaper-hd-24924626" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-food-wallpaper-hd-24924626.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wallpaper-naturaleza-1280x720-3912-b8cd774f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaper-naturaleza-1280x720-3912-b8cd774f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)cp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2)cp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

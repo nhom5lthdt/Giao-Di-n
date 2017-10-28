@@ -21,5 +21,10 @@ namespace Quan_Ly_Quan_An
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

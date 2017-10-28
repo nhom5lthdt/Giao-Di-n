@@ -107,5 +107,29 @@
   <ItemGroup>
     <None Include="Resources\wallpaper-naturaleza-1280x720-3912-b8cd774f.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-food-wallpaper-hd-249246262.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Гостиная-домой-украшения-ткани-плакат-натюрморт-редька-красный-капли-спрей.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper-naturaleza-1280x800-3912-e32ab377.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20140429153615521552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29cp.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,16 @@ namespace Quan_Ly_Quan_An.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _20140429153615521552 {
+            get {
+                object obj = ResourceManager.GetObject("20140429153615521552", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4539294138_881354cfa3 {
             get {
                 object obj = ResourceManager.GetObject("4539294138_881354cfa3", resourceCulture);
@@ -103,6 +113,56 @@ namespace Quan_Ly_Quan_An.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_food_wallpaper_hd_249246262 {
+            get {
+                object obj = ResourceManager.GetObject("free-food-wallpaper-hd-249246262", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__2_ {
+            get {
+                object obj = ResourceManager.GetObject("images (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__2_cp {
+            get {
+                object obj = ResourceManager.GetObject("images (2)cp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Vegetable_HD_Wallpapers_03543 {
             get {
                 object obj = ResourceManager.GetObject("Vegetable-HD-Wallpapers-03543", resourceCulture);
@@ -116,6 +176,26 @@ namespace Quan_Ly_Quan_An.Properties {
         internal static System.Drawing.Bitmap wallpaper_naturaleza_1280x720_3912_b8cd774f {
             get {
                 object obj = ResourceManager.GetObject("wallpaper-naturaleza-1280x720-3912-b8cd774f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wallpaper_naturaleza_1280x800_3912_e32ab377 {
+            get {
+                object obj = ResourceManager.GetObject("wallpaper-naturaleza-1280x800-3912-e32ab377", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Гостиная_домой_украшения_ткани_плакат_натюрморт_редька_красный_капли_спрей {
+            get {
+                object obj = ResourceManager.GetObject("Гостиная-домой-украшения-ткани-плакат-натюрморт-редька-красный-капли-спрей", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
