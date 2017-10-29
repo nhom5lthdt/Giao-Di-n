@@ -16,8 +16,8 @@ namespace Quan_Ly_Quan_An
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new DangNhap());
-            //Application.Run(new WebGioiThieu());
+          //   Application.Run(new DangNhap());
+          Application.Run(new dathang());
         }
     }
 }

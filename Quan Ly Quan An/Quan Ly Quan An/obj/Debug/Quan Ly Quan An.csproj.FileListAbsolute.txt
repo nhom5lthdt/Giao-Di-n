@@ -9,3 +9,4 @@ D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.cspro
 D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.exe
 D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan Ly Quan An.pdb
 D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan_Ly_Quan_An.webgioithieu.resources
+D:\PROJECT LTHDT\Quan Ly Quan An\Quan Ly Quan An\obj\Debug\Quan_Ly_Quan_An.dathang.resources

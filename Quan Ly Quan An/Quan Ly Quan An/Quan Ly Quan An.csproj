@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dathang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dathang.Designer.cs">
+      <DependentUpon>dathang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="webgioithieu.Designer.cs">
       <DependentUpon>webgioithieu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="dathang.resx">
+      <DependentUpon>dathang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
