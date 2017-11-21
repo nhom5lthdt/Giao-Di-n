@@ -1,0 +1,16 @@
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
+C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
