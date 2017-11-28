@@ -14,3 +14,20 @@ C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.BaoCao.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
+D:\Git\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
