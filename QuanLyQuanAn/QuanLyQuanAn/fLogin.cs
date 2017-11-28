@@ -52,5 +52,10 @@ namespace QuanLyQuanAn
                 e.Cancel = true;
             }
         }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

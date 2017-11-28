@@ -113,6 +113,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TongDai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TongDai.Designer.cs">
+      <DependentUpon>TongDai.cs</DependentUpon>
+    </Compile>
     <Compile Include="XuLyDuLieu.cs" />
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
@@ -154,6 +160,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TongDai.resx">
+      <DependentUpon>TongDai.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="MonAnDataSet.xsc">
       <DependentUpon>MonAnDataSet.xsd</DependentUpon>
     </None>
