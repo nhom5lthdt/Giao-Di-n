@@ -48,3 +48,20 @@ D:\PROJECT LTHDT\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.Generat
 D:\PROJECT LTHDT\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 D:\PROJECT LTHDT\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\PROJECT LTHDT\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TongDai.resources
+C:\Users\GL553\Documents\GitHub\Tai\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
