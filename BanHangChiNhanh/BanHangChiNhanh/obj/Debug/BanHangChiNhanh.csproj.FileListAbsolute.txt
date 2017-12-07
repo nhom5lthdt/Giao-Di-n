@@ -1,0 +1,9 @@
+E:\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.exe.config
+E:\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.exe
+E:\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.pdb
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csprojResolveAssemblyReference.cache
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Form1.resources
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Properties.Resources.resources
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.GenerateResource.Cache
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.exe
+E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.pdb
