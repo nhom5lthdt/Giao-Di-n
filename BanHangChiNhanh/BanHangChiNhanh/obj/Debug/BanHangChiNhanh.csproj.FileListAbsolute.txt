@@ -7,13 +7,3 @@ E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Properties.Resource
 E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.GenerateResource.Cache
 E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.exe
 E:\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.pdb
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.exe.config
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.exe
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\bin\Debug\BanHangChiNhanh.pdb
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csprojResolveAssemblyReference.cache
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Form1.resources
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Properties.Resources.resources
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.GenerateResource.Cache
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.CoreCompileInputs.cache
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.exe
-D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.pdb

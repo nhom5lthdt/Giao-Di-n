@@ -79,7 +79,7 @@ namespace BanHangChiNhanh
         {
             lvHoaDon.Items.Add(dgvDsMonAn.SelectedRows[0].Cells["TenMA"].Value.ToString());
             lvHoaDon.Items[i].SubItems.Add(dgvDsMonAn.SelectedRows[0].Cells["DonGia"].Value.ToString());  
-            lvHoaDon.Items[i].SubItems.Add(lvDsBan.SelectedItems[0].ToString());
+            lvHoaDon.Items[i].SubItems.Add(lvDsBan.SelectedItems[0].Text);
            
             i++;
             

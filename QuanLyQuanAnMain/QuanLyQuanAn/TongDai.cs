@@ -15,12 +15,7 @@ namespace QuanLyQuanAn
         DataView ThongTinView;
         DataTable LichSu;
         DataTable ThongTinMonAn;
-        DataTable ThongTinHoaDon;
-        DataTable ThongTinChiNhanh;
-        float tien = 0;
-        float giamgia = 0;
-        DataRow KH;
-
+        DataTable ThongTinHoaDon ;
         public TongDai()
         {
             InitializeComponent();
@@ -28,7 +23,6 @@ namespace QuanLyQuanAn
 
         private void TongDai_Load(object sender, EventArgs e)
         {
-
             ThongTinMonAn = XuLyDuLieu.docBang("Select MaMA,TenMA,TenLoaiMA,DonGia from MonAn,LoaiMonAn where MonAn.MaLoaiMA = LoaiMonAn.MaLoaiMA");
             ThongTinView = new DataView(ThongTinMonAn);
             dgvDSMonAn.DataSource = ThongTinView;
@@ -36,15 +30,51 @@ namespace QuanLyQuanAn
             ThongTinHoaDon = XuLyDuLieu.docBang("select * from Rong");
             dgvDSHoaDon.DataSource = ThongTinHoaDon;
 
-            LichSu = XuLyDuLieu.docBang("Select HoaDon.MaHD,TenCN,TenKH,KhachHang.SDT,ThoiGian " +
-                     "from HoaDon,KhachHang,ChiNhanh,ChiTietHoaDon " +
-                     "where ChiTietHoaDon.MaHD=HoaDon.MaHD AND HoaDon.MaCN=ChiNhanh.MaCN AND HoaDon.MaKH=KhachHang.MaKH");
-            dgvLichSu.DataSource = LichSu;
-
-            ThongTinChiNhanh = XuLyDuLieu.docBang("Select TenCN,SDT,DiaChi  from ChiNhanh");
-            dgvChiNhanh.DataSource = ThongTinChiNhanh;
+            //LichSu = XuLyDuLieu.docBang("Select * from HoaDon");
+            //ThongTinView = new DataView(LichSu);
 
         }
+
+        private void btThem_Click(object sender, EventArgs e)
+        {
+            if (dgvDSHoaDon.SelectedRows.Count > 0)
+            {
+                DataRow cn = ThongTinMonAn.NewRow();
+
+
+
+                ThongTinMonAn.Rows.Add(cn);
+
+                XuLyDuLieu.ghiBang("HoaDon", ThongTinMonAn);
+            }
+            else
+            {
+                MessageBox.Show("Anh/chi chua nhap du thong tin.", "Thong bao", MessageBoxButtons.OK);
+            }
+        }
+
+        private void btXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvDSHoaDon.SelectedRows.Count > 0)
+            {
+                DataRow cn = ((DataRowView)dgvDSHoaDon.SelectedRows[0].DataBoundItem).Row;
+                DialogResult dr =
+                    MessageBox.Show("Anh/chi co muon xoa hoa don " + cn["Món Ăn"] + " khong?",
+                    "Thong bao",
+                    MessageBoxButtons.YesNo);
+                if (dr == DialogResult.Yes)
+                {
+                    cn.Delete();
+                    XuLyDuLieu.ghiBang("HoaDon", ThongTinMonAn);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Anh/chi chua chon ten mon an.", "Thong bao", MessageBoxButtons.OK);
+            }
+        }
+
+        
 
         private void thoátToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -68,8 +98,9 @@ namespace QuanLyQuanAn
 
         private void btThem_Click_1(object sender, EventArgs e)
         {
-
+            float thanhtien=0;
             int i;
+            int sl=ThongTinHoaDon.Rows.Count;
             if (dgvDSMonAn.SelectedRows.Count > 0)
             {
                 for (i = 0; i < dgvDSMonAn.SelectedRows.Count; i++)
@@ -79,44 +110,36 @@ namespace QuanLyQuanAn
                     if (chiso == -1)
                     {
                         DataRow dhma = ThongTinHoaDon.NewRow();
-                        dhma["MaMonAn"] = ma["MaMA"];
-                        dhma["TenMonAn"] = ma["TenMA"];
-                        dhma["LoaiMonAn"] = ma["TenLoaiMA"];
-                        dhma["SoLuong"] = 1;
-                        dhma["Gia"] = ma["DonGia"];
+                        dhma["Mã Món Ăn"] = ma["MaMA"];
+                        dhma["Tên Món Ăn"] = ma["TenMA"];
+                        dhma["Loại Món Ăn"] = ma["TenLoaiMA"];
+                        dhma["Số Lượng"] = 1;
+                        dhma["Giá"] = ma["DonGia"];
                         ThongTinHoaDon.Rows.Add(dhma);
+                        for (i = 0; i < sl - 1; i++)
+                            thanhtien += int.Parse(dgvDSHoaDon.Rows[i].Cells["Số Lượng"].Value.ToString())*float.Parse(dgvDSHoaDon.Rows[i].Cells["Giá"].Value.ToString());
+                        tbTongTien.Text = thanhtien.ToString();
                     }
                     else
                     {
-                        ThongTinHoaDon.Rows[chiso]["SoLuong"] = (int)ThongTinHoaDon.Rows[chiso]["SoLuong"] + 1;
+                        ThongTinHoaDon.Rows[chiso]["Số Lượng"] = (int)ThongTinHoaDon.Rows[chiso]["Số Lượng"] + 1;
+                        for(i = 0; i < sl - 1; i++)
+                            thanhtien += int.Parse(dgvDSHoaDon.Rows[i].Cells["Số Lượng"].Value.ToString()) * float.Parse(dgvDSHoaDon.Rows[i].Cells["Giá"].Value.ToString());
+                        tbTongTien.Text = thanhtien.ToString();
                     }
-
-                    float thanhtien = 0;
-                    float tongtien = 0;
-                    for (i = 0; i < dgvDSHoaDon.Rows.Count; i++)
-                    {
-                        thanhtien = float.Parse(dgvDSHoaDon.Rows[i].Cells["Gia"].Value.ToString()) * int.Parse(dgvDSHoaDon.Rows[i].Cells["SoLuong"].Value.ToString());
-                        tongtien += thanhtien;
-                    }
-                    tbTongTien.Text = tongtien.ToString();
-                    giamgia = tongtien;
-                    tien = tongtien;
-                    tien = tien + (tien * 10 / 100);
-                    tbThanhTien.Text = tien.ToString();
                 }
             }
             else
             {
-                MessageBox.Show("Anh/Chị chưa chọn món ăn", "Thong bao");
+                MessageBox.Show("Anh/chi chua chon mon an", "Thong bao");
             }
-            XuLyDuLieu.ghiBang("Rong", ThongTinHoaDon);
         }
         int TimMATrongDSDHMA(string ma)
         {
             int kq = -1;
             for (int i = 0; i < ThongTinHoaDon.Rows.Count; i++)
             {
-                if ((string)ThongTinHoaDon.Rows[i]["TenMonAn"] == ma)
+                if ((string)ThongTinHoaDon.Rows[i]["Tên Món Ăn"] == ma)
                 {
                     kq = i;
                     break;
@@ -127,47 +150,32 @@ namespace QuanLyQuanAn
 
         private void btBot_Click(object sender, EventArgs e)
         {
-            int i;
-            int chiso;
-            if (dgvDSHoaDon.SelectedRows.Count > 0)
+            if (dgvDSMonAn.SelectedRows.Count > 0)
             {
-                for (i = 0; i < dgvDSHoaDon.SelectedRows.Count; i++)
+                for (int i = 0; i < dgvDSMonAn.SelectedRows.Count; i++)
                 {
-                    DataRow ma = ThongTinHoaDon.Rows[dgvDSHoaDon.SelectedRows[i].Index];
-
-                    chiso = TimMATrongDSDHMA(((string)ma["TenMonAn"]));
-                    if (chiso != -1)
+                    DataRow ma = ThongTinMonAn.Rows[dgvDSMonAn.SelectedRows[i].Index];
+                    int chiso = TimMATrongDSDHMA(((string)ma["TenMA"]));
+                    if (chiso == -1)
                     {
-                        int t = (int)ThongTinHoaDon.Rows[chiso]["SoLuong"];
-                        if (t > 1)
-                        {
-                            ThongTinHoaDon.Rows[chiso]["SoLuong"] = (int)ThongTinHoaDon.Rows[chiso]["SoLuong"] - 1;
-                        }
-                        else
-                        {
-                            //ThongTinHoaDon.Rows.RemoveAt(chiso);
-                            ma.Delete();
-                        }
+                        DataRow dhma = ThongTinHoaDon.NewRow();
+                        dhma["Mã Món Ăn"] = ma["MaMA"];
+                        dhma["Tên Món Ăn"] = ma["TenMA"];
+                        dhma["Loại Món Ăn"] = ma["TenLoaiMA"];
+                        dhma["Số Lượng"] = 1;
+                        dhma["Giá"] = ma["DonGia"];
+                        ThongTinHoaDon.Rows.Add(dhma);
+                    }
+                    else
+                    {
+                        ThongTinHoaDon.Rows[chiso]["Số Lượng"] = (int)ThongTinHoaDon.Rows[chiso]["Số Lượng"] - 1;
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Không Còn Món Để Bớt.", "Thong bao", MessageBoxButtons.OK);
+                MessageBox.Show("Anh/chi chua chon mon an", "Thong bao");
             }
-            float thanhtien = 0;
-            float tongtien = 0;
-            for (i = 0; i < dgvDSHoaDon.Rows.Count; i++)
-            {
-                thanhtien = float.Parse(dgvDSHoaDon.Rows[i].Cells["Gia"].Value.ToString()) * int.Parse(dgvDSHoaDon.Rows[i].Cells["SoLuong"].Value.ToString());
-                tongtien += thanhtien;
-            }
-            tbTongTien.Text = tongtien.ToString();
-            giamgia = tongtien;
-            tien = tongtien;
-            tien = tien + (tien * 10 / 100);
-            tbThanhTien.Text = tien.ToString();
-            XuLyDuLieu.ghiBang("Rong", ThongTinHoaDon);
         }
 
         private void btXoa_Click_1(object sender, EventArgs e)
@@ -176,169 +184,24 @@ namespace QuanLyQuanAn
             {
                 DataRow cn = ((DataRowView)dgvDSHoaDon.SelectedRows[0].DataBoundItem).Row;
                 DialogResult dr =
-                    MessageBox.Show("Anh/Chị có muốn xóa món " + cn["TenMonAn"] + " khong?",
+                    MessageBox.Show("Anh/chi co muon xoa hoa don " + cn["Tên Món Ăn"] + " khong?",
                     "Thong bao",
                     MessageBoxButtons.YesNo);
                 if (dr == DialogResult.Yes)
                 {
                     cn.Delete();
-                    //XuLyDuLieu.ghiBang("Rong", ThongTinHoaDon);
-                }
-                float thanhtien = 0;
-                float tongtien = 0;
-                for (int i = 0; i < dgvDSHoaDon.Rows.Count; i++)
-                {
-                    thanhtien = float.Parse(dgvDSHoaDon.Rows[i].Cells["Gia"].Value.ToString()) * int.Parse(dgvDSHoaDon.Rows[i].Cells["SoLuong"].Value.ToString());
-                    tongtien += thanhtien;
-                }
-                tbTongTien.Text = tongtien.ToString();
-                giamgia = tongtien;
-                tien = tongtien;
-                tien = tien + (tien * 10 / 100);
-                tbThanhTien.Text = tien.ToString();
-                XuLyDuLieu.ghiBang("Rong", ThongTinHoaDon);
-            }
-            else
-            {
-                MessageBox.Show("Anh/Chị chưa chọn tên món ăn.", "Thong bao", MessageBoxButtons.OK);
-            }
-        }
-
-        private void nbudGiamGia_ValueChanged(object sender, EventArgs e)
-        {
-            int k = int.Parse(nbudGiamGia.Value.ToString());
-            if (k >= 0)
-            {
-                float thanhtien = tien - (giamgia * k / 100);
-                tbThanhTien.Text = thanhtien.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Mời Nhập");
-            }
-        }
-
-
-        private void btChon_Click_1(object sender, EventArgs e)
-        {
-            KH = ((DataRowView)dgvChiNhanh.SelectedRows[0].DataBoundItem).Row;
-            DialogResult dr =
-                MessageBox.Show("Anh/Chị đã chọn Chi Nhánh  " + KH["TenCN"]);
-        }
-
-        private void btXacNhanKH_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(tbKhachHang.Text)  || string.IsNullOrEmpty(tbSDT.Text) || string.IsNullOrEmpty(tbbDiaChi.Text))
-                MessageBox.Show("Anh/Chị chưa nhập đủ thông tin ");
-            else
-                MessageBox.Show(" Xác nhận thành công  KH : " + tbKhachHang.Text);
-        }
-
-        private void btXacNhanHD_Click(object sender, EventArgs e)
-        {
-            if (dgvDSHoaDon.SelectedRows.Count > 0)
-            {
-                MessageBox.Show("Xác nhận thành Công");
-            }
-            else
-            {
-                MessageBox.Show("Anh/Chị chưa nhập hóa đơn", "Thong bao", MessageBoxButtons.OK);
-            }
-        }
-
-        private void btHuy_Click(object sender, EventArgs e)
-        {
-            if (dgvDSHoaDon.SelectedRows.Count > 0)
-            {
-                DataRow cn = ((DataRowView)dgvDSHoaDon.SelectedRows[0].DataBoundItem).Row;
-                DialogResult dr =
-                    MessageBox.Show("Anh/Chị có muốn hủy đơn hàng " + " không?",
-                    "Thông báo",
-                    MessageBoxButtons.YesNo);
-                if (dr == DialogResult.Yes)
-                {
-                    ThongTinHoaDon.Clear();
-                    tbThanhTien.Clear();
-                    tbTongTien.Clear();
-                    tbKhachHang.Clear();
-                    tbSDT.Clear();
-                    tbbDiaChi.Clear();
+                    XuLyDuLieu.ghiBang("Rong", ThongTinMonAn);
                 }
             }
             else
             {
-                MessageBox.Show("Hóa đơn trống");
+                MessageBox.Show("Anh/chi chua chon ten mon an.", "Thong bao", MessageBoxButtons.OK);
             }
         }
-
-        private void tbTimKiemSDT_TextChanged(object sender, EventArgs e)
+        private void TinhTien()
         {
-            if (string.IsNullOrEmpty(tbTimKiemSDT.Text))
-            {
-                (dgvLichSu.DataSource as DataTable).DefaultView.RowFilter = string.Empty;
-            }
-            else
-            {
-                (dgvLichSu.DataSource as DataTable).DefaultView.RowFilter = string.Format("SDT like '%{0}%'", tbTimKiemSDT.Text);
-            }
-           
-        }
 
-        
-        private void tbKhachHang_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                tbbDiaChi.Select();
-            }
-        }
-
-        private void tbbDiaChi_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                tbSDT.Select();
-            }
-        }
-
-        private void tbSDT_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btXacNhanKH.Select();
-            }
-        }
-
-        private void tbTaoMoiKH_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(tbKhachHang.Text) || string.IsNullOrEmpty(tbSDT.Text) || string.IsNullOrEmpty(tbbDiaChi.Text))
-                MessageBox.Show("Anh/Chị chưa nhập thông tin ");
-            else
-            {
-                tbKhachHang.Clear();
-                tbSDT.Clear();
-                tbbDiaChi.Clear();
-            }
-        }
-
-        private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ThongTinTaiKhoan tt = new ThongTinTaiKhoan();
-            this.Hide();
-            tt.ShowDialog();
-            this.Show();
-        }
-
-        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ThongTinHoaDon.Clear();
-            tbThanhTien.Clear();
-            tbTongTien.Clear();
-            tbKhachHang.Clear();
-            tbSDT.Clear();
-            tbbDiaChi.Clear();
         }
     }
-}
-    
+    }
 
