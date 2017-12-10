@@ -82,6 +82,7 @@ D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.Gene
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+<<<<<<< HEAD
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
@@ -98,3 +99,6 @@ C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\De
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+=======
+D:\Github\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
+>>>>>>> 801917743fc78f8deb9024bf6f9793ffb0783a59
