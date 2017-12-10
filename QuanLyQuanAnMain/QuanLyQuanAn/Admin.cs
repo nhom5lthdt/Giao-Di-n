@@ -205,5 +205,10 @@ namespace QuanLyQuanAn
             TongDai d = new TongDai();
             d.Show();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

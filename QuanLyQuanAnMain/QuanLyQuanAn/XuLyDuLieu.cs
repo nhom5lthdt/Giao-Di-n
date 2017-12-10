@@ -24,8 +24,6 @@ namespace QuanLyQuanAn
         {
             String selectSql = "Select * from" + tenBang;
             OleDbDataAdapter adapter = new OleDbDataAdapter(selectSql, connectionString);
-
-
         }
     }
 }

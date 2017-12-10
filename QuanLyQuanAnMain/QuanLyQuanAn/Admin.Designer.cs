@@ -106,14 +106,10 @@
             this.monAnDataSet = new QuanLyQuanAn.MonAnDataSet();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.bthongke = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dgvdoanhthu = new System.Windows.Forms.DataGridView();
             this.tcategory = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
@@ -130,6 +126,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabPage3.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -164,8 +161,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.monAnDataSet)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvdoanhthu)).BeginInit();
             this.tcategory.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel10.SuspendLayout();
@@ -336,10 +331,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label10.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(16, 119);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(151, 20);
+            this.label10.Size = new System.Drawing.Size(186, 18);
             this.label10.TabIndex = 2;
             this.label10.Text = "Danh Sách Khách Hàng";
             // 
@@ -880,9 +875,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.checkBox2);
-            this.panel2.Controls.Add(this.checkBox3);
-            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.bthongke);
             this.panel2.Controls.Add(this.dateTimePicker2);
             this.panel2.Controls.Add(this.dateTimePicker1);
@@ -890,44 +883,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(835, 96);
             this.panel2.TabIndex = 1;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(365, 50);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(46, 17);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Loại";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(548, 50);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(47, 17);
-            this.checkBox3.TabIndex = 5;
-            this.checkBox3.Text = "Món";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(197, 50);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(76, 17);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Chi Nhánh";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // bthongke
             // 
-            this.bthongke.Location = new System.Drawing.Point(295, 0);
+            this.bthongke.Location = new System.Drawing.Point(164, 35);
             this.bthongke.Name = "bthongke";
             this.bthongke.Size = new System.Drawing.Size(224, 26);
             this.bthongke.TabIndex = 2;
-            this.bthongke.Text = "Thống Kê";
+            this.bthongke.Text = "Hóa Đơn";
             this.bthongke.UseVisualStyleBackColor = true;
             this.bthongke.Click += new System.EventHandler(this.bthongke_Click);
             // 
@@ -948,20 +912,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.dgvdoanhthu);
             this.panel1.Location = new System.Drawing.Point(103, 130);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(835, 469);
             this.panel1.TabIndex = 0;
-            // 
-            // dgvdoanhthu
-            // 
-            this.dgvdoanhthu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvdoanhthu.Location = new System.Drawing.Point(-3, 2);
-            this.dgvdoanhthu.Name = "dgvdoanhthu";
-            this.dgvdoanhthu.Size = new System.Drawing.Size(835, 469);
-            this.dgvdoanhthu.TabIndex = 0;
-            this.dgvdoanhthu.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // tcategory
             // 
@@ -996,11 +950,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label2.Location = new System.Drawing.Point(845, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 42);
+            this.label2.Size = new System.Drawing.Size(227, 39);
             this.label2.TabIndex = 7;
             this.label2.Text = "Tổng Chi Phí";
             // 
@@ -1114,6 +1068,15 @@
             this.dateTimePicker5.Size = new System.Drawing.Size(204, 20);
             this.dateTimePicker5.TabIndex = 0;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(436, 34);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(224, 27);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Thống Kê";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1174,9 +1137,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.monAnDataSet)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvdoanhthu)).EndInit();
             this.tcategory.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
@@ -1234,10 +1194,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dgvdoanhthu;
         private System.Windows.Forms.TabControl tcategory;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button9;
@@ -1262,7 +1219,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.DataGridView dataGridView6;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.BindingSource monAnDataSetBindingSource;
         private MonAnDataSet monAnDataSet;
         private System.Windows.Forms.Panel panel20;
@@ -1293,5 +1249,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView dgvmonan;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
