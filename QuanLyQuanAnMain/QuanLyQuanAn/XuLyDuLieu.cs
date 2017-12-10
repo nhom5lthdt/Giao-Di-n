@@ -10,7 +10,7 @@ namespace QuanLyQuanAn
 {
     class XuLyDuLieu
     {
-        public static String connectionString = @"Provider=SQLNCLI11;Data Source=HUNGMAX\SQLLAST;Integrated Security=SSPI;Initial Catalog=QuanLyQuanAn";
+        public static String connectionString = @"Provider=SQLOLEDB;Data Source=DESKTOP-NMEJ4QV\MON;Initial Catalog=QuanLyQuanAn;Integrated Security=SSPI";
 
         public static DataTable docBang(String sql)
         {
