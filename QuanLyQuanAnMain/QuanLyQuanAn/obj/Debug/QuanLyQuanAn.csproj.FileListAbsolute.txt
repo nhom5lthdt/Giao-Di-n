@@ -113,4 +113,3 @@ C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\ob
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
 >>>>>>> 5150963a88f656513a3b40051c69bc39a6010357
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fThemmenu.resources

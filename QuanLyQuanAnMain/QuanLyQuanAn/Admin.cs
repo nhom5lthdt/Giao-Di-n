@@ -14,17 +14,11 @@ namespace QuanLyQuanAn
     {
         DataTable dsChiNhanh;
         DataView dsChiNhanhView;
-
+       
         DataTable dsMonAn;
         DataView dsKhachHangView;
         DataTable dsKhachHang;
         DataView dsMonAnView;
-        DataTable dsBan;
-        DataTable dsMenu;
-        DataView dsBanView;
-
-        DataView dsMenuView;
-       
 
         public Admin()
         {
@@ -72,27 +66,16 @@ namespace QuanLyQuanAn
             //Doc du lieu danh sach chi nhanh
             dsChiNhanh = XuLyDuLieu.docBang("Select *From ChiNhanh");
             dsChiNhanhView = new DataView(dsChiNhanh);
-            dgvcn.DataSource = dsChiNhanhView;
+            dgvchinhanh.DataSource = dsChiNhanhView;
         
             //Doc du lieu danh sach mon an
 
             dsMonAn = XuLyDuLieu.docBang("Select *From MonAn");
             dsMonAnView = new DataView(dsMonAn);
             dgvmonan.DataSource = dsMonAnView;
-            // Doc du lieu ban chi nhanh
+        
 
-            dsBan = XuLyDuLieu.docBang("Select *From Ban");
-            dsBanView = new DataView(dsBan);
-            dgvban.DataSource = dsBanView;
-            // Doc du lieu monan
-            
-          
-            dsMenuView = new DataView(bientoancuc.dsMn);
-           
-            dgvmenu.DataSource = dsMenuView;
-            
-
-        }
+    }
     
 
         private void tCatllogy_Click(object sender, EventArgs e)
@@ -190,9 +173,8 @@ namespace QuanLyQuanAn
             DataRow kh = dsKhachHang.NewRow();
             kh["MaKH"] = tbidkhachhang.Text;
             kh["TenKH"] = tbtenkhachhang.Text;
-            kh["SDT"] = tbsdtkhachhang.Text;
-            kh["DiaChi"] = tbdiachikhachhang.Text;
-            kh["MaLoaiKH"] = cbmaloaikhach.Text;
+            kh["SdtKH"] = tbsdtkhachhang.Text;
+            kh["DiaChiKH"] = tbdiachikhachhang.Text;
             dsKhachHang.Rows.Add(kh);
             XuLyDuLieu.ghiBang("KhachHang", dsKhachHang);
         }
@@ -204,18 +186,12 @@ namespace QuanLyQuanAn
         private void bttthemonan_Click(object sender, EventArgs e)
         {
             DataRow cn = dsMonAn.NewRow();
-            cn["MaMA"] = tbidmonan.Text;
-            cn["TenMA"] = tbtenmonan.Text;
-            cn["MaLoaiMA"] = cbloaimonan.Text;
-            cn["DonGia"] = tbgiamonan.Text;
-            cn["MaDM"] = cbdanhmuc.Text;
-            dsChiNhanh.Rows.Add(cn);
+            //cn["Mama"] = tbMaCN.Text;
+            //cn["CNTen"] = tbTenChiNhanh.Text;
+            //cn["CNDienThoai"] = tbDienThoaiChiNhanh.Text;
+            //cn["CNDiaChi"] = tbDiaChiChiNhanh.Text;
+            //dsChiNhanh.Rows.Add(cn);
             XuLyDuLieu.ghiBang("ChiNhanh", dsChiNhanh);
-            
-
-
-
-
         }
 
         private void bthongke_Click(object sender, EventArgs e)
@@ -230,129 +206,9 @@ namespace QuanLyQuanAn
             d.Show();
         }
 
-<<<<<<< HEAD
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
-=======
-        private void dgvcn_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            DataRow cn = dsChiNhanh.NewRow();
-            cn["MaCN"]= tbid.Text;
-            cn["TenCN"] = tbtencn.Text;
-            cn["SDT"] = tbsdt.Text;
-            cn["DiaChi"] = tbdiachi.Text;
-            dsChiNhanh.Rows.Add(cn);
-            XuLyDuLieu.ghiBang("ChiNhanh", dsChiNhanh);
-        }
-
-        private void btxoachinanh_Click(object sender, EventArgs e)
-        {
-            if(dgvcn.SelectedRows.Count>0)
-            {
-                DataRow cn = ((DataRowView)dgvcn.SelectedRows[0].DataBoundItem).Row;
-                cn.Delete();
-                XuLyDuLieu.ghiBang("ChiNhanh", dsChiNhanh);
-            }
-            else
-                MessageBox.Show("Anh/ chi chua chon chi nhanh.", "ThongBao", MessageBoxButtons.OK);
-        }
-
-        private void btthemban_Click(object sender, EventArgs e)
-        {
-            if (dgvcn.SelectedRows.Count > 0)
-            {
-                DataRow cn = ((DataRowView)dgvcn.SelectedRows[0].DataBoundItem).Row;
-                DataRow Ban = dsBan.NewRow();
-
-                Ban["MaBan"] = tbidban.Text;
-                
-                Ban["MaCN"] = cn["MaCN"];
-
-                dsBan.Rows.Add(Ban);
-                XuLyDuLieu.ghiBang("Ban", dsBan);
-            }
-            else
-            {
-                MessageBox.Show("Anh/ chi chua chon chi nhanh.", "ThongBao", MessageBoxButtons.OK);
-            }
-        }
-
-        private void btxoaban_Click(object sender, EventArgs e)
-        {
-            if (dgvban.SelectedRows.Count > 0)
-            {
-                DataRow cn = ((DataRowView)dgvban.SelectedRows[0].DataBoundItem).Row;
-                cn.Delete();
-                XuLyDuLieu.ghiBang("Ban", dsBan);
-            }
-            else
-                MessageBox.Show("Anh/ chi chua chon ban.", "ThongBao", MessageBoxButtons.OK);
-        }
-
-        private void btxoakhachhang_Click(object sender, EventArgs e)
-        {
-            if (dgvdanhsachkhachhang.SelectedRows.Count > 0)
-            {
-                DataRow cn = ((DataRowView)dgvdanhsachkhachhang.SelectedRows[0].DataBoundItem).Row;
-                cn.Delete();
-                XuLyDuLieu.ghiBang("KhanhHang", dsKhachHang);
-            }
-            else
-                MessageBox.Show("Anh/ chi chua chon khach hang.", "ThongBao", MessageBoxButtons.OK);
-        }
-
-        private void btxoamonan_Click(object sender, EventArgs e)
-        {
-            if (dgvmonan.SelectedRows.Count > 0)
-            {
-                DataRow cn = ((DataRowView)dgvmonan.SelectedRows[0].DataBoundItem).Row;
-                cn.Delete();
-                XuLyDuLieu.ghiBang("MonAn", dsMonAn);
-            }
-            else
-                MessageBox.Show("Anh/ chi chua chon mon an.", "ThongBao", MessageBoxButtons.OK);
-        }
-
-        private void bttthemmenu_Click(object sender, EventArgs e)
-        {
-            if (dgvcn.SelectedRows.Count > 0)
-            {
-                fThemmenu frm = new fThemmenu();
-                DataRow cn = ((DataRowView)dgvcn.SelectedRows[0].DataBoundItem).Row;
-                bientoancuc.c = dgvcn.SelectedRows.Count;
-
-
-
-                bientoancuc.masomn = dgvcn.SelectedRows[0].Cells["MaCN"].Value.ToString();
-               
-               
-                frm.ShowDialog();
-                this.Show();
-            }
-            else
-                MessageBox.Show("Anh/ chi chua chon chi nhanh.", "ThongBao", MessageBoxButtons.OK);
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbgiamonan_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
->>>>>>> 801917743fc78f8deb9024bf6f9793ffb0783a59
-    }
-    
-    
-
+}
