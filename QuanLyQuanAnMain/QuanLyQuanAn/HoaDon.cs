@@ -17,11 +17,11 @@ namespace QuanLyQuanAn
         {
             InitializeComponent();
         }
-        SqlConnection cnn = new SqlConnection(@"Data Source=DESKTOP-NMEJ4QV\MON;Initial Catalog=QuanLyQuanAn;Integrated Security=True");
+        SqlConnection cnn = new SqlConnection(@"Data Source= UOL;Initial Catalog=QuanLyQuanAn;Integrated Security=True");
         private void ketnoicsdl()
         {
             cnn.Open();
-            string sql = "SELECT HoaDon.MaHD,MaCN,MaBan,Datein,Dateout,MaMA,SLMA,TongTien FROM HoaDon, ChiTietHoaDon WHERE TrangThai = '1' AND HoaDon.MaHD = ChiTietHoaDon.MaHD";  // lay het du lieu trong bang sinh vien
+            string sql = "select * from BaoCao";  // lay het du lieu trong bang sinh vien
             SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
             com.CommandType = CommandType.Text;
             SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve
@@ -37,20 +37,6 @@ namespace QuanLyQuanAn
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void HoaDon_Load(object sender, EventArgs e)
-        {
-            ketnoicsdl();
-        }
-        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
 
         }

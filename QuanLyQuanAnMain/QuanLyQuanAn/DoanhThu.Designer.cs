@@ -29,23 +29,58 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.baoCaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.doanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngKêBanHangToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hoaĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.menuStrip1.Location = new System.Drawing.Point(585, 0);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.baoCaoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(546, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(30, 423);
+            this.menuStrip1.Size = new System.Drawing.Size(69, 423);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // baoCaoToolStripMenuItem
+            // 
+            this.baoCaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.doanhThuToolStripMenuItem,
+            this.thôngKêBanHangToolStripMenuItem,
+            this.hoaĐơnToolStripMenuItem});
+            this.baoCaoToolStripMenuItem.Name = "baoCaoToolStripMenuItem";
+            this.baoCaoToolStripMenuItem.Size = new System.Drawing.Size(56, 19);
+            this.baoCaoToolStripMenuItem.Text = "Báo Cáo";
+            // 
+            // doanhThuToolStripMenuItem
+            // 
+            this.doanhThuToolStripMenuItem.Name = "doanhThuToolStripMenuItem";
+            this.doanhThuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.doanhThuToolStripMenuItem.Text = "Doanh Thu";
+            // 
+            // thôngKêBanHangToolStripMenuItem
+            // 
+            this.thôngKêBanHangToolStripMenuItem.Name = "thôngKêBanHangToolStripMenuItem";
+            this.thôngKêBanHangToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thôngKêBanHangToolStripMenuItem.Text = "Thống Kê Bán Hàng";
+            // 
+            // hoaĐơnToolStripMenuItem
+            // 
+            this.hoaĐơnToolStripMenuItem.Name = "hoaĐơnToolStripMenuItem";
+            this.hoaĐơnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hoaĐơnToolStripMenuItem.Text = "Hóa Đơn";
             // 
             // dateTimePicker1
             // 
@@ -119,6 +154,8 @@
             this.Name = "DoanhThu";
             this.Text = "DoanhThu";
             this.Load += new System.EventHandler(this.DoanhThu_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -128,6 +165,10 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem baoCaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem doanhThuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngKêBanHangToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hoaĐơnToolStripMenuItem;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label1;
