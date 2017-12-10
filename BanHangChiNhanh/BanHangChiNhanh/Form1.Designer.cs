@@ -135,7 +135,7 @@
             this.columnHeader6});
             this.lvHoaDon.FullRowSelect = true;
             this.lvHoaDon.GridLines = true;
-            this.lvHoaDon.Location = new System.Drawing.Point(6, 19);
+            this.lvHoaDon.Location = new System.Drawing.Point(13, 19);
             this.lvHoaDon.Name = "lvHoaDon";
             this.lvHoaDon.Size = new System.Drawing.Size(187, 320);
             this.lvHoaDon.TabIndex = 0;

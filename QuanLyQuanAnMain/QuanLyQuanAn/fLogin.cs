@@ -35,6 +35,7 @@ namespace QuanLyQuanAn
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             Admin f = new Admin();
+           
             this.Hide();
             f.ShowDialog();
             this.Show();
@@ -54,6 +55,11 @@ namespace QuanLyQuanAn
         }
 
         private void fLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbtendangnhap_TextChanged(object sender, EventArgs e)
         {
 
         }

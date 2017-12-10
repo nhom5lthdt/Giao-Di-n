@@ -82,3 +82,4 @@ D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.Gene
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\GITHUB\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+D:\Github\Giao-Di-n\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
