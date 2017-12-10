@@ -120,6 +120,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+    <Compile Include="QuanLyQuanAnDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
+=======
+    <Compile Include="ThongTinTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinTaiKhoan.Designer.cs">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+>>>>>>> f59a06e3dcacc4cc4a10a9caa0b98dabc4caeb0c
+    </Compile>
     <Compile Include="TongDai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +183,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ThongTinTaiKhoan.resx">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TongDai.resx">
       <DependentUpon>TongDai.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +214,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QuanLyQuanAnDataSet.xsc">
+      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyQuanAnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyQuanAnDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyQuanAnDataSet.xss">
+      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\hunter_4-wallpaper-1920x1080.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
