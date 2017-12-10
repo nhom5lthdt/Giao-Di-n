@@ -66,6 +66,7 @@
             this.tbtendangnhap.Name = "tbtendangnhap";
             this.tbtendangnhap.Size = new System.Drawing.Size(189, 20);
             this.tbtendangnhap.TabIndex = 1;
+            this.tbtendangnhap.TextChanged += new System.EventHandler(this.tbtendangnhap_TextChanged);
             // 
             // IDlabel
             // 
