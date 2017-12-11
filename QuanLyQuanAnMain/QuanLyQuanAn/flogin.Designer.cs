@@ -66,7 +66,7 @@
             this.tbtendangnhap.Name = "tbtendangnhap";
             this.tbtendangnhap.Size = new System.Drawing.Size(189, 20);
             this.tbtendangnhap.TabIndex = 1;
-            this.tbtendangnhap.TextChanged += new System.EventHandler(this.tbtendangnhap_TextChanged);
+            this.tbtendangnhap.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbtendangnhap_KeyDown);
             // 
             // IDlabel
             // 
@@ -77,7 +77,6 @@
             this.IDlabel.Size = new System.Drawing.Size(165, 22);
             this.IDlabel.TabIndex = 0;
             this.IDlabel.Text = "Tên Đăng Nhập :";
-            this.IDlabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel3
             // 
@@ -95,6 +94,7 @@
             this.tbmatkhau.Size = new System.Drawing.Size(189, 20);
             this.tbmatkhau.TabIndex = 1;
             this.tbmatkhau.UseSystemPasswordChar = true;
+            this.tbmatkhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbmatkhau_KeyDown);
             // 
             // PassLabel
             // 
@@ -108,6 +108,7 @@
             // 
             // btdangnhap
             // 
+            this.btdangnhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btdangnhap.Cursor = System.Windows.Forms.Cursors.Default;
             this.btdangnhap.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btdangnhap.Location = new System.Drawing.Point(176, 201);
@@ -115,34 +116,34 @@
             this.btdangnhap.Size = new System.Drawing.Size(103, 25);
             this.btdangnhap.TabIndex = 2;
             this.btdangnhap.Text = "Đăng Nhập";
-            this.btdangnhap.UseVisualStyleBackColor = true;
+            this.btdangnhap.UseVisualStyleBackColor = false;
             this.btdangnhap.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // btthoat
             // 
+            this.btthoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btthoat.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btthoat.Location = new System.Drawing.Point(285, 201);
             this.btthoat.Name = "btthoat";
             this.btthoat.Size = new System.Drawing.Size(103, 25);
             this.btthoat.TabIndex = 3;
             this.btthoat.Text = "Thoát";
-            this.btthoat.UseVisualStyleBackColor = true;
+            this.btthoat.UseVisualStyleBackColor = false;
             this.btthoat.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 37);
+            this.label3.Location = new System.Drawing.Point(172, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(122, 22);
             this.label3.TabIndex = 4;
             this.label3.Text = "ĐĂNG NHẬP";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.btthoat);
             this.panel1.Controls.Add(this.btdangnhap);
@@ -153,7 +154,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(452, 274);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // fLogin
             // 

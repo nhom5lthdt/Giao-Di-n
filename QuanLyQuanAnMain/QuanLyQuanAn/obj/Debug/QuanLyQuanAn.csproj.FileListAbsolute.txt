@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fThemmenu.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TongDai.resources
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
-D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
-=======
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
@@ -80,37 +58,17 @@ D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojReso
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TongDai.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TongDai.resources
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
-C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
->>>>>>> 5150963a88f656513a3b40051c69bc39a6010357
-D:\GITHUB\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ThongTinTaiKhoan.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.GiamDoc.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.QuanLyChiNhanh.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.BanHangChiNhanh.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TaoChiNhanh.resources

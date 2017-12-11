@@ -52,18 +52,30 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="bientoancuc.cs" />
+    <Compile Include="BienToanCuc.cs" />
+    <Compile Include="BanHangChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHangChiNhanh.Designer.cs">
+      <DependentUpon>BanHangChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoPhanQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoPhanQuanLy.Designer.cs">
+      <DependentUpon>BoPhanQuanLy.cs</DependentUpon>
+    </Compile>
     <Compile Include="DoanhThu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DoanhThu.Designer.cs">
       <DependentUpon>DoanhThu.cs</DependentUpon>
     </Compile>
-    <Compile Include="fThemmenu.cs">
+    <Compile Include="GiamDoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fThemmenu.Designer.cs">
-      <DependentUpon>fThemmenu.cs</DependentUpon>
+    <Compile Include="GiamDoc.Designer.cs">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
     </Compile>
     <Compile Include="HoaDon.cs">
       <SubType>Form</SubType>
@@ -71,29 +83,11 @@
     <Compile Include="HoaDon.Designer.cs">
       <DependentUpon>HoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="fdangky.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fdangky.Designer.cs">
-      <DependentUpon>fdangky.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ffood.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ffood.Designer.cs">
-      <DependentUpon>ffood.cs</DependentUpon>
-    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fManager.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fManager.Designer.cs">
-      <DependentUpon>fManager.cs</DependentUpon>
     </Compile>
     <Compile Include="fthemkhachhang.cs">
       <SubType>Form</SubType>
@@ -107,12 +101,6 @@
     <Compile Include="fthemmonan.Designer.cs">
       <DependentUpon>fthemmonan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fthemchinhanh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fthemchinhanh.Designer.cs">
-      <DependentUpon>fthemchinhanh.cs</DependentUpon>
-    </Compile>
     <Compile Include="MonAnDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -120,10 +108,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanLyQuanAnDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
+    <Compile Include="QuanLyChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyChiNhanh.Designer.cs">
+      <DependentUpon>QuanLyChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaoChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoChiNhanh.Designer.cs">
+      <DependentUpon>TaoChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinTaiKhoan.Designer.cs">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="TongDai.cs">
       <SubType>Form</SubType>
@@ -135,35 +136,26 @@
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BanHangChiNhanh.resx">
+      <DependentUpon>BanHangChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DoanhThu.resx">
       <DependentUpon>DoanhThu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fThemmenu.resx">
-      <DependentUpon>fThemmenu.cs</DependentUpon>
+    <EmbeddedResource Include="GiamDoc.resx">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HoaDon.resx">
       <DependentUpon>HoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fdangky.resx">
-      <DependentUpon>fdangky.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ffood.resx">
-      <DependentUpon>ffood.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fManager.resx">
-      <DependentUpon>fManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fthemkhachhang.resx">
       <DependentUpon>fthemkhachhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fthemmonan.resx">
       <DependentUpon>fthemmonan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fthemchinhanh.resx">
-      <DependentUpon>fthemchinhanh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -175,6 +167,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QuanLyChiNhanh.resx">
+      <DependentUpon>QuanLyChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoChiNhanh.resx">
+      <DependentUpon>TaoChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinTaiKhoan.resx">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TongDai.resx">
       <DependentUpon>TongDai.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,17 +204,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="QuanLyQuanAnDataSet.xsc">
-      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="QuanLyQuanAnDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QuanLyQuanAnDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QuanLyQuanAnDataSet.xss">
-      <DependentUpon>QuanLyQuanAnDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Resources\hunter_4-wallpaper-1920x1080.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

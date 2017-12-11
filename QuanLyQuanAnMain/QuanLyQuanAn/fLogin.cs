@@ -17,28 +17,27 @@ namespace QuanLyQuanAn
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            Admin f = new Admin();
+            if (tbtendangnhap.Text == "GiamDoc" && tbmatkhau.Text == "GiamDoc")
+                {
+                    GiamDoc gd = new GiamDoc();
+                    this.Hide();
+                    gd.ShowDialog();
+                    this.Show();
+                }
+            else
+            {
+                if(tbtendangnhap.Text=="QuanLyCN" && tbmatkhau.Text=="QuanLyCN")
+                {
+                    QuanLyChiNhanh gd = new QuanLyChiNhanh();
+                    this.Hide();
+                    gd.ShowDialog();
+                    this.Show();
+                }
+            }
+            
            
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -56,12 +55,18 @@ namespace QuanLyQuanAn
 
         private void fLogin_Load(object sender, EventArgs e)
         {
-
         }
 
-        private void tbtendangnhap_TextChanged(object sender, EventArgs e)
+        private void tbtendangnhap_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.Enter)
+                tbmatkhau.Select();
+        }
 
+        private void tbmatkhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btdangnhap.Select();
         }
     }
 }

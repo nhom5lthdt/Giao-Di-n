@@ -16,3 +16,4 @@ D:\Github\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.cs
 D:\Github\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Form1.resources
 D:\Github\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.Properties.Resources.resources
 D:\Github\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.GenerateResource.Cache
+D:\GITHUB\Giao-Di-n\BanHangChiNhanh\BanHangChiNhanh\obj\Debug\BanHangChiNhanh.csproj.CoreCompileInputs.cache
