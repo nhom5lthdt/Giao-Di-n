@@ -10,12 +10,12 @@ namespace QuanLyQuanAn
 {
     class XuLyDuLieu
     {
-<<<<<<< HEAD
-        public static String connectionString = @"Provider=SQLNCLI11;Data Source=DESKTOP-8KP11NH\TAI;Integrated Security=SSPI;Initial Catalog=QuanLyQuanAn";
-=======
-        public static String connectionString = @"Provider=SQLOLEDB;Data Source=DESKTOP-NMEJ4QV\MON;Initial Catalog=QuanLyQuanAn;Integrated Security=SSPI";
+//<<<<<<< HEAD
+        public static String connectionString = @"Provider=SQLNCLI11;Data Source=HUNGMAX\SQLLAST;Integrated Security=SSPI;Initial Catalog=QuanLyQuanAn";
+//=======
+      //  public static String connectionString = @"Provider=SQLOLEDB;Data Source=DESKTOP-NMEJ4QV\MON;Initial Catalog=QuanLyQuanAn;Integrated Security=SSPI";
 
->>>>>>> 5150963a88f656513a3b40051c69bc39a6010357
+//>>>>>>> 5150963a88f656513a3b40051c69bc39a6010357
         public static DataTable docBang(String sql)
         {
             DataTable dt = new DataTable();
