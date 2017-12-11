@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
@@ -19,6 +18,7 @@ D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+<<<<<<< HEAD
 =======
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
@@ -114,3 +114,5 @@ C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\ob
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
 >>>>>>> 5150963a88f656513a3b40051c69bc39a6010357
 D:\GITHUB\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
+=======
+>>>>>>> parent of 8019177... Merge branch 'master' of https://github.com/nhom5lthdt/Giao-Di-n
