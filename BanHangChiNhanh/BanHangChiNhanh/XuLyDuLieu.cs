@@ -11,7 +11,7 @@ namespace BanHangChiNhanh
     class XuLyDuLieu
     {
         
-        public static String connectionString = "Provider=SQLNCLI11;Data Source=MYHEOO\\THEDANG;Integrated Security=SSPI;Initial Catalog=QuanLyQuanAn";
+        public static String connectionString = @"Provider=SQLNCLI11;Data Source=HUNGMAX\SQLLAST;Integrated Security=SSPI;Initial Catalog=QuanLyQuanAn";
        
         public static DataTable docDulieu(String sql)
         {

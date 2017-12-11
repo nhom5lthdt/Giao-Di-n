@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
@@ -20,6 +21,8 @@ D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\Github\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 6aa8d23b5f00d57bc735f5c164d078d050a45aa4
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 C:\Users\GL553\Documents\Visual Studio 2015\Projects\LTHDT slide 8\QuanLyQuanAn\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
@@ -80,19 +83,16 @@ D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csprojReso
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Admin.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.DoanhThu.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.HoaDon.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fdangky.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ffood.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fLogin.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fManager.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemkhachhang.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemmonan.resources
-D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.fthemchinhanh.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Properties.Resources.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TongDai.resources
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.exe
 D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
+<<<<<<< HEAD
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
@@ -116,3 +116,10 @@ C:\Users\Chanchamayo\Documents\GitHub\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\ob
 D:\GITHUB\Giao-Di-n\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 =======
 >>>>>>> parent of 8019177... Merge branch 'master' of https://github.com/nhom5lthdt/Giao-Di-n
+=======
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.ThongTinTaiKhoan.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.GiamDoc.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.QuanLyChiNhanh.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.BanHangChiNhanh.resources
+D:\PROJECT LTHDT\QuanLyQuanAnMain\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.TaoChiNhanh.resources
+>>>>>>> 6aa8d23b5f00d57bc735f5c164d078d050a45aa4

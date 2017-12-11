@@ -32,7 +32,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tbidfood = new System.Windows.Forms.TextBox();
@@ -43,6 +42,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbnamefood = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -94,13 +94,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(496, 73);
             this.panel4.TabIndex = 17;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(181, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(296, 26);
-            this.textBox1.TabIndex = 2;
             // 
             // label4
             // 
@@ -190,6 +183,13 @@
             this.label1.Size = new System.Drawing.Size(106, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tên Món Ăn:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(181, 30);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(296, 26);
+            this.textBox1.TabIndex = 2;
             // 
             // fthemmonan
             // 
